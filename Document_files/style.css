@@ -1,0 +1,34 @@
+:root {
+    --font-text: 'Roboto', sans-serif;
+    --font-title: 'Roboto Condensed', sans-serif; 
+    --background-color: #1a1d24;
+    --background-color2:#8b8b8b ;
+    --background-color3:white ;
+    
+    --background-color31: #e0011a;
+    --background-color4: #abb8c3;
+    --background-color5: #737373;
+    --background-color6:white ;
+    --background-color7:#cf2e2e ;
+}
+*:where(:not(html, iframe, canvas, img, svg, video, audio) :not(svg *, symbol *)) {
+    all: unset;
+    display: revert;
+}
+body {
+    margin: 0;
+    background-color: var(--background-color);
+}
+li
+    {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body .bg-main 
+    {
+    background-color: #1a1d24
+}
+

@@ -1,0 +1,153 @@
+.trailers-destacados {
+    margin-inline: auto;
+    max-width: 1200px;
+    display: flex;
+    gap: 40px;
+    }
+.trailers-destacados .texto-grid  {
+    width: 200px;
+    height: 500px;
+    background-color: var(--background-color2);
+    color:var(--background-color3);
+    padding: 50px;
+    position: relative;
+}
+.trailers-destacados .texto-grid .destacados{
+    font-family: var(--font-title);
+    font-size: 37px;
+    font-weight: 700;
+    color: white;
+}
+.trailers-destacados .texto-grid .texto-destacado {
+    font-family: var(--font-title);
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    right: 10%;
+}
+.grid {
+    display: grid;
+    grid-template-columns:  2fr 1fr ;
+    gap: 10px;
+    width: 610px;
+    height: 500px;
+}
+.grid .grid-columna1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 400px;
+    height: 245x;
+}
+.grid .grid-columna2 {
+    grid-row-start: 1 ;
+    grid-row-end: 2;
+    width: 200px;
+    height: 280px;
+}
+.grid .grid-columna3 {
+    grid-row-start: 2 ;
+    grid-row-end: 3 ;
+    width: 400px;
+    height: 245px;
+}
+.grid .grid-columna4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 200px;
+    height: 280px;
+}
+
+.grid-columna1 .poster1 {
+    position: relative;
+ }
+.grid-columna1 .contenido1{
+    position: absolute;
+    font-family: var(--font-title);
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin: 40px;
+    padding: 10px;
+    top: 80px;    
+ }
+
+.contenido1 .fecha-estreno {
+    padding-top: 20px;
+    font-family: var(--font-text);
+    font-size: 15px;
+    font-weight: 400;
+    color: #8b8b8b;
+    
+}
+
+
+.grid-columna2 .poster2 {
+    position: relative;
+ }
+.grid-columna2  .contenido2{
+    position: absolute;
+    font-family: var(--font-title);
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin: 40px;
+    padding: 10px;
+    top: 80px;    
+ }
+.contenido2 .fecha-estreno { 
+    padding-top: 20px;
+    font-family: var(--font-text);
+    font-size: 15px;
+    font-weight: 400;
+    color: #8b8b8b;
+    
+}
+.grid-columna3 .poster3 {
+    position: relative;
+ }
+.grid-columna3 .contenido3{
+    position: absolute;
+    font-family: var(--font-title);
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin: 40px;
+    padding: 10px;
+    top: 80px; 
+    
+}
+.contenido3 .fecha-estreno {
+    padding-top: 20px;
+    font-family: var(--font-text);
+    font-size: 15px;
+    font-weight: 400;
+    color: #8b8b8b;
+    
+}
+.grid-columna4 .poster4 {
+    position: relative;
+ }
+.grid-columna4 .contenido4{
+    position: absolute;
+    font-family: var(--font-title);
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin: 40px;
+    padding: 10px;
+    top: 80px; 
+    
+}
+.contenido4 .fecha-estreno {
+    padding-top: 20px;
+    font-family: var(--font-text);
+    font-size: 15px;
+    font-weight: 400;
+    color: #8b8b8b;
+    
+}
+
+
+
+
+
