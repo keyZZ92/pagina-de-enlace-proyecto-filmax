@@ -1,0 +1,46 @@
+body .frases {
+    background-color: var(--background-color);
+}
+.frases .texto-frases{
+    background-color: var(--background-color);
+    height: 300px;
+    max-width: 1200px;
+    margin-top: 5%;
+    margin-inline: auto;
+}
+ .texto-frases  { 
+    display: flex;
+    gap: 10px;
+ }
+.texto-frases .logo-empresa {
+    width: 200px;
+    height: 300px;
+}
+.texto-frases .logo-empresa img{
+    width: 150px;
+    height: 50px;
+    padding-top: 60%;
+}
+.texto-frases .titulo-frases {
+    width: 990px;
+    height: 50px;
+}
+.texto-frases .titulo-frases h2 {
+    font-family: 'lora';
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--background-color4);
+    width: 900px;
+    height: 100px;
+    padding: 10%;
+    position: relative;
+ }
+ .titulo-frases h2::before {
+        content: "  ";
+        width: 5px;
+        height: 55px;
+        background-color: var(--background-color2);
+        position: absolute;
+        top: 37%;
+        left: 5%;
+ }

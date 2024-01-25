@@ -1,0 +1,172 @@
+.trailers-destacados {
+    margin-inline: auto;
+    max-width: 1200px;
+    display: flex;
+    gap: 20px;
+    }
+.trailers-destacados .texto-grid {
+    width: 200px;
+    height: 510px;
+    background-color: var(--background-color3);
+    padding: 50px;
+    margin-top: 10px;
+    border-radius: 5%;
+    position: relative;
+}
+
+.trailers-destacados .texto-grid .destacados{
+    font-family: var(--font-title);
+    font-size: 37px;
+    font-weight: 700;
+    color: white;
+    margin-top: 30%;
+    left: 10%;
+}
+.destacados::before {
+    content: "  ";
+    width: 5px;
+    height: 55px;
+    background-color: var(--background-color4);
+    position: absolute;
+    top: 20%;
+    left: 35px;
+}
+.trailers-destacados .texto-grid .texto{ 
+    font-family: var(--font-title);
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-top:50%; 
+    right: 10%;
+    transition: 0.60;
+}
+.texto:hover::before{
+    color: #8b8b8b;
+        
+}
+ .grid {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns:  2fr 1fr ;
+    gap: 10px;
+    width: 610px;
+    height: 610px;
+    box-shadow: 0.5px 0.5px 5px var(--background-color4);
+    
+}
+.grid .grid-columna1 {
+    background-image: url(https://s3.abcstatics.com/abc/www/multimedia/play/2024/01/21/PoorThings-RLrOAwparkIwjLVJAUkg4cN-1200x840@abc.jpg);
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-repeat:no-repeat ;
+    background-size: 400px 300px ;
+    filter: brightness(90%);
+}
+.grid .grid-columna2 {
+    background-image:url(https://pics.filmaffinity.com/furiosa_a_mad_max_saga-943403371-mmed.jpg) ;
+    grid-row-start: 1 ;
+    grid-row-end: 2;
+    background-repeat:no-repeat ;
+    background-size: 200px 300px ;
+}
+.grid .grid-columna3 {
+    background-image: url(https://media.vogue.mx/photos/659c4718ff5d82833cc9dd6c/16:9/w_1920,c_limit/peliculas-estrenos-2024.jpg);
+    grid-row-start: 2 ;
+    grid-row-end: 3 ;
+    background-repeat:no-repeat ;
+    background-size: 400px 300px ;
+    filter: brightness(90%);
+}
+.grid .grid-columna4 {
+    background-image:  url(https://s3.us-west-1.amazonaws.com/esdelatino.com/wp-content/uploads/2024/01/06142751/El-debut-en-taquilla-nacional-de-Night-Swim-deja-a-scaled.jpg);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-repeat:no-repeat ;
+    background-size: 200px 300px ;
+}
+
+.grid-columna1 {
+    position: relative;
+ }
+ 
+.poster1 .titulo-pelicula1{
+    position: absolute;
+    font-family: var(--font-title);
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    top: 15%;    
+    padding: 10% ;
+    transition: 0.3s;
+}
+.poster1 .titulo-pelicula1:hover{
+   color: #8b8b8b;
+}
+.poster1 .fecha-estreno1 {
+    position: absolute;
+    font-family: var(--font-text);
+    font-size: 15px;
+    font-weight: 400;
+    color: #8b8b8b;
+    top: 25%;
+    padding: 10%;
+    transition: 0.3;
+}
+.fecha-estreno1:hover {
+    color: white; 
+}
+ .grid-columna3 {
+    position: relative;
+ }
+.poster3 .titulo-pelicula3{
+    position: absolute;
+    font-family: var(--font-title);
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    top: 15%;    
+    padding: 10% ;
+    transition: 0.3s;
+ }
+ .poster3 .titulo-pelicula3:hover{
+    color: #8b8b8b;
+ }
+.poster3 .fecha-estreno3 {
+    position: absolute;
+    font-family: var(--font-text);
+    font-size: 15px;
+    font-weight: 400;
+    color: #8b8b8b;
+    top: 25%;
+    padding: 10%;
+    transition: 0.3;
+}
+.fecha-estreno3:hover {
+    color: white;
+}
+.publicidad-derecha .publicidad {
+    margin-top: 10px;
+    width: 280px;
+    height: 610px;
+    background-image: url(https://www.sardegnaeliberta.it/photo/Oppenheimer-Movie-Poster-Universal-Publicity-EMBED-2022-.jpg);
+    background-repeat:no-repeat ;
+    background-size: 280px 610px ; 
+    filter: brightness(80%);
+    position: relative;
+ }
+ .publicidad img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin:auto;
+    bottom: 50%;
+
+    opacity: 0;
+    transition: 0.67; 
+ }
+ .publicidad img:hover {
+    opacity: 1;
+  }
+ 
+
+
