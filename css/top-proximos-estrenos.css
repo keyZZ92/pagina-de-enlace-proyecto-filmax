@@ -1,0 +1,56 @@
+body .top-proximos-estrenos {
+    background-color: var(--background-color);
+}
+.top-proximos-estrenos .poster-top {
+    width: 1200px;
+    height: 600px;
+    background-image: url(https://image.tmdb.org/t/p/original/aALAkXNX6u5Q1t956BDL33zwPfL.jpg);
+    background-repeat: no-repeat;
+    background-size: 1200px 600px;
+    margin: auto;
+    box-shadow: 0.5px 0.5px 0.5px var(--background-color4);
+    margin-top: 5%;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.nombre-poster-top {
+    font-family: var(--font-title);
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    bottom: 30%;
+    padding: 55px;
+    position: absolute;
+    transition: 0.6s;
+}
+.nombre-poster-top:hover {
+    color: var(--background-color4); }
+.nombre-poster-top::after { 
+    content: "  ";
+    width: 20px;
+    height: 20px;
+    color: var(--background-color4);
+}
+.descripcion {
+    font-family: var(--font-title);
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--background-color4);
+    bottom: 5%;
+    padding: 55px;
+    position: absolute;
+}
+.play {
+    width: 150px;
+    height: 150px;
+    top:20%;
+    left: 40%;
+    position: absolute;
+    transition: 0.3;
+    opacity: 0.1;
+}
+.play:hover {
+    opacity: 0.8;
+}

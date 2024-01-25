@@ -1,8 +1,8 @@
 body .frases {
-    background-color: var(--background-color);
+    background-color: var(--background-color2);
 }
 .frases .texto-frases{
-    background-color: var(--background-color);
+    background-color: var(--background-color2);
     height: 300px;
     max-width: 1200px;
     margin-top: 5%;

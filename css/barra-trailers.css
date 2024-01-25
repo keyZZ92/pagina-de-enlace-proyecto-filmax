@@ -1,0 +1,120 @@
+.barra-trailers {
+    background-color: var(--background-color6);
+    margin-top: 5%;
+}
+.trailers {
+    max-width: 1200px;
+    height: 450px;
+    margin: auto;
+    background-color: var(--background-color6);
+    display: flex; 
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+    
+ }
+ .clasificacion1 {
+    bottom: -10%;
+    font-family: var(--font-text: 'Roboto');
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--background-color2);
+    position: absolute;
+    transition: top 0.60s;
+ }
+ .clasificacion1:hover {
+    color: var(--background-color);
+ }
+ .clasificacion2 {
+    bottom: 5%;
+    font-family: var(--font-text: 'Roboto');
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--background-color2);
+    position: absolute;
+    transition: top 0.60s;
+ }
+ .clasificacion2:hover {
+    color: var(--background-color);
+ }
+ .clasificacion3 {
+    bottom: 5%;
+    font-family: var(--font-text: 'Roboto');
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--background-color2);
+    position: absolute;
+    transition: top 0.60s;
+ }
+ .clasificacion3:hover {
+    color: var(--background-color); 
+ }
+.trailers .contenido-estreno1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 310px;
+    height: 380px;
+    background-image: url(https://www.sonypictures.es/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fspe-uploads%2Fmedium_Cualquiera_Menos_Tu_4x5_75070cea4d%2Fmedium_Cualquiera_Menos_Tu_4x5_75070cea4d.jpg&w=1920&q=75);
+    background-size: 310px 380px;
+    background-repeat: no-repeat;
+    box-shadow: 0.5px 0.5px 5px var(--background-color2);
+    position: relative;
+}
+.contenido-estreno1 .play1 {
+    width: 50px;
+    height: 50px;
+    top:30%;
+    position: absolute;
+    left: 40%;
+    transition: 0.3s;
+    opacity: 0.5;
+}
+.contenido-estreno1 .play1:hover {
+    opacity: 1;
+}
+
+.trailers .contenido-estreno2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 310px;
+    height: 380px;
+    background-image: url(https://www.sonypictures.es/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fspe-uploads%2Fmedium_MW_INTL_On_Line_1080x1350_Montage_03_TRADUCIDO_ad73b7341c%2Fmedium_MW_INTL_On_Line_1080x1350_Montage_03_TRADUCIDO_ad73b7341c.jpg&w=1920&q=75);
+    background-size: 310px 380px;
+    background-repeat: no-repeat;
+    box-shadow: 0.5px 0.5px 5px var(--background-color2);
+}
+.contenido-estreno2 .play2 {
+    width: 50px;
+    height: 50px;
+    top:30%;
+    position: absolute;
+    left: 48%;
+    transition: 0.3s;
+    opacity: 0.5;
+}
+.contenido-estreno2 .play2:hover {
+    opacity: 1;
+}
+
+.trailers .contenido-estreno3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 310px;
+    height: 380px;
+    background-image: url(https://www.sonypictures.es/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fspe-uploads%2Fmedium_GF_INTL_On_Line_1080x1350_Baby_Garfield_02_trad_96448c3f96%2Fmedium_GF_INTL_On_Line_1080x1350_Baby_Garfield_02_trad_96448c3f96.jpg&w=1920&q=75);
+    background-size: 310px 380px;
+    background-repeat: no-repeat;
+    box-shadow: 0.5px 0.5px 5px var(--background-color2);
+}
+.contenido-estreno3 .play3 {
+    width: 50px;
+    height: 50px;
+    top:30%;
+    position: absolute;
+    left: 77%;
+    transition: 0.3s;
+    opacity: 0.5;
+}
+.contenido-estreno3 .play3:hover {
+    opacity: 1;
+}

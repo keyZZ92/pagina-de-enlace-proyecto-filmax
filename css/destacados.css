@@ -21,6 +21,10 @@
     color: white;
     margin-top: 30%;
     left: 10%;
+    transition:0.3s;
+}
+.trailers-destacados .texto-grid .destacados:hover {
+    color: var(--background-color);
 }
 .destacados::before {
     content: "  ";
@@ -31,6 +35,7 @@
     top: 20%;
     left: 35px;
 }
+
 .trailers-destacados .texto-grid .texto{ 
     font-family: var(--font-title);
     font-size: 20px;
@@ -41,8 +46,7 @@
     transition: 0.60;
 }
 .texto:hover::before{
-    color: #8b8b8b;
-        
+    color: #8b8b8b;     
 }
  .grid {
     margin-top: 10px;
@@ -115,6 +119,21 @@
 .fecha-estreno1:hover {
     color: white; 
 }
+.grid-columna2 {
+    position: relative;
+}
+.play-grid2 {
+    width: 50px;
+    height: 50px;
+    bottom: 40%;
+    right: 35%;
+    position: absolute;
+    transition: 0.3s;
+    opacity: 0.5;
+}
+.play-grid2:hover {
+    opacity: 1;
+}
  .grid-columna3 {
     position: relative;
  }
@@ -144,6 +163,21 @@
 .fecha-estreno3:hover {
     color: white;
 }
+.grid-columna4 {
+    position: relative;
+}
+.play-grid4 {
+    width: 50px;
+    height: 50px;
+    bottom: 40%;
+    right: 35%;
+    position: absolute;
+    transition: 0.3s;
+    opacity: 0.5;
+}
+.play-grid4:hover {
+    opacity: 1;
+}
 .publicidad-derecha .publicidad {
     margin-top: 10px;
     width: 280px;
@@ -155,11 +189,12 @@
     position: relative;
  }
  .publicidad img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     margin:auto;
     bottom: 50%;
+    left: 100px;
 
     opacity: 0;
     transition: 0.67; 

@@ -3,10 +3,10 @@
     --font-title: 'Roboto Condensed', sans-serif; 
     --background-color: #1a1d24;
     --background-color2:#8b8b8b ;
-    --background-color3:white ;
     --background-color3: #e0011a;
     --background-color4:#f8b350;
     --background-color5:#737373;
+    --background-color6:white ;
  
 }
 
@@ -16,9 +16,7 @@
 }
 body {
     margin: 0;
-    background-image: url(https://creast.network/landing/wp-content/uploads/2023/05/exhibicion-sala-cine-sostenible.jpg);
-    background-repeat: no-repeat;
-    background-size:100%;
+   background-color: var(--background-color);
 }
 li
     {
